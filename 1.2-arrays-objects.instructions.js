@@ -13,19 +13,18 @@ let favoriteMovie = {
     runTime: '1h 52m',
     genre: 'musical',
     characters: [
-                {Dorothy: 'red slippers'},
-                {Scarecrow: 'Brains'},
-                {cowardlyLion: 'Courage'},
-                {tinMan: 'A heart'},
-                {Toto: 'pet'},
-                {Glinda: 'Nice Witch'},
-                {lollipopKids: 'Munchkins'},
-                   ]
+        {name: 'Dorothy', Age: 18},
+        {name: 'Scarecrow', Age: 25},
+        {name: 'Cowardly Lion', Age: 40},
+        {name: 'TinMan', Age: 30},
+        {name: 'Toto', Age: 5},
+    ]
         
-
+          
+        
+        
     
     
 }
 
-//console.log(object.keys(favoriteMovie.nameOfMovie.runTime.genre).toString());
-//console.log(favoriteMovie.nameOfMovie.runTime.genre.characters[0,1,2,3,4,5,6]);
+console.log(favoriteMovie.characters[1]);

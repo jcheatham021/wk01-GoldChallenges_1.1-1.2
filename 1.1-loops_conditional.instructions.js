@@ -11,22 +11,23 @@
 
 let numLine = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
 
-for (let i = 0; i < numLine.length; i++){
+for (let i = 0; i < 11; i++){
+    
     console.log(numLine[i]);
 }
 
-//function callBackfunc(num){
-  //return num + 1;              //<=====This was my step 2 results. I commented it out so I could show what came up with.
-//}  
-//let num = numLine
-//console.log(callBackfunc);
+function callBackfunc(num){
+  return num + 1;              //<=====This was my step 2 results. I commented it out so I could show what came up with.
+}  
+let num = numLine
+console.log(callBackfunc);
 
 for (var i=0; i<=9; i++) {
     if (i === 0) {
-            console.log('The number is Even:',numLine[i]);
+            console.log('The number is Even:',i);
     }
     else if (i % 2 === 0) {
-            console.log('The number is Even:',numLine[i]);   
+            console.log('The number is Even:',i);   
     }
     else {
         console.log("The number is Odd");
